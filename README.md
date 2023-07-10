@@ -18,9 +18,9 @@ Insert calendar information into a text file.
 The first line should be a date of the form: Day of Week, Month Day
 
 Events can (but are not required to) include a time. 
-If not, event is placed very early in the day (at a time that you can modify).
-If so, the last mentioned time should be designated AM or PM. 
-Events don't need to include an end time; event is assumed to last 1 hour (although you can modify this variable).
+If time is not given, the event is placed very early in the day (at a time that you can modify).
+If time is given, the last mentioned time should be designated AM or PM. 
+Events don't need to include an end time. If no end time given, the event is assumed to last 1 hour (although you can modify this variable).
 
 Here is an acceptable example input:
 ```
